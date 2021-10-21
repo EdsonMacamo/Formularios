@@ -19,6 +19,8 @@ import { FromNativeValidationComponent } from './from-native-validation/from-nat
 import { FormValidationComponent } from './form-validation/form-validation.component';
 import { FormControlComponent } from './form-control/form-control.component';
 import { FormGrupComponent } from './form-grup/form-grup.component';
+import { FormBuilderComponent } from './form-builder/form-builder.component';
+import { FormArayComponent } from './form-aray/form-aray.component';
 
 
 
@@ -29,7 +31,9 @@ import { FormGrupComponent } from './form-grup/form-grup.component';
     FromNativeValidationComponent,
     FormValidationComponent,
     FormControlComponent,
-    FormGrupComponent
+    FormGrupComponent,
+    FormBuilderComponent,
+    FormArayComponent
   ],
   imports: [
     BrowserModule,
