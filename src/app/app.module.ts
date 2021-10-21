@@ -5,7 +5,7 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { TemoalteDriveFromComponent } from './temoalte-drive-from/temoalte-drive-from.component';
 import {MatCardModule} from '@angular/material/card';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatDatepickerModule} from '@angular/material/datepicker';
 import {MatRadioModule} from '@angular/material/radio';
@@ -17,6 +17,7 @@ import {MatButtonModule} from '@angular/material/button';
 import {FlexLayoutModule} from '@angular/flex-layout';
 import { FromNativeValidationComponent } from './from-native-validation/from-native-validation.component';
 import { FormValidationComponent } from './form-validation/form-validation.component';
+import { FormControlComponent } from './form-control/form-control.component';
 
 
 
@@ -25,7 +26,8 @@ import { FormValidationComponent } from './form-validation/form-validation.compo
     AppComponent,
     TemoalteDriveFromComponent,
     FromNativeValidationComponent,
-    FormValidationComponent
+    FormValidationComponent,
+    FormControlComponent
   ],
   imports: [
     BrowserModule,
@@ -41,7 +43,8 @@ import { FormValidationComponent } from './form-validation/form-validation.compo
     MatFormFieldModule,
     MatNativeDateModule,
     MatButtonModule,
-    FlexLayoutModule
+    FlexLayoutModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
