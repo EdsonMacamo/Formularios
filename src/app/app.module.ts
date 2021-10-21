@@ -16,6 +16,7 @@ import { MatNativeDateModule } from '@angular/material/core';
 import {MatButtonModule} from '@angular/material/button';
 import {FlexLayoutModule} from '@angular/flex-layout';
 import { FromNativeValidationComponent } from './from-native-validation/from-native-validation.component';
+import { FormValidationComponent } from './form-validation/form-validation.component';
 
 
 
@@ -23,7 +24,8 @@ import { FromNativeValidationComponent } from './from-native-validation/from-nat
   declarations: [
     AppComponent,
     TemoalteDriveFromComponent,
-    FromNativeValidationComponent
+    FromNativeValidationComponent,
+    FormValidationComponent
   ],
   imports: [
     BrowserModule,

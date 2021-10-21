@@ -16,7 +16,7 @@
                 <input matInput type="text" autocomplete="off" [(ngModel)]="firstName" name="firstName"
                   class="form-control" value="" placeholder="First Name" #firstNameField="ngModel"
                   required minlength="3">
-                  <mat-hint *ngIf="firstNameField.invalid" class="field-error">
+                  <mat-hint *ngIf="firstNameField.invalid && (firstNameField.touched  || firstNameField.dirty)" class="field-error">
                     <p>enter a Valid Name</p>
                   </mat-hint>
               
@@ -29,7 +29,7 @@
   
             </div>
   
-            <button mat-button color="primary" type="submit" >
+            <button mat-button color="primary" [disabled]="!formClient.valid" type="submit" >
               <mat-icon>done</mat-icon>Submit
             </button>
             
