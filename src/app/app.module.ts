@@ -18,6 +18,7 @@ import {FlexLayoutModule} from '@angular/flex-layout';
 import { FromNativeValidationComponent } from './from-native-validation/from-native-validation.component';
 import { FormValidationComponent } from './form-validation/form-validation.component';
 import { FormControlComponent } from './form-control/form-control.component';
+import { FormGrupComponent } from './form-grup/form-grup.component';
 
 
 
@@ -27,7 +28,8 @@ import { FormControlComponent } from './form-control/form-control.component';
     TemoalteDriveFromComponent,
     FromNativeValidationComponent,
     FormValidationComponent,
-    FormControlComponent
+    FormControlComponent,
+    FormGrupComponent
   ],
   imports: [
     BrowserModule,
