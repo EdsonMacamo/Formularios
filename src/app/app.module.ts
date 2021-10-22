@@ -21,6 +21,7 @@ import { FormControlComponent } from './form-control/form-control.component';
 import { FormGrupComponent } from './form-grup/form-grup.component';
 import { FormBuilderComponent } from './form-builder/form-builder.component';
 import { FormArayComponent } from './form-aray/form-aray.component';
+import { ReactiveFromValidationComponent } from './reactive-from-validation/reactive-from-validation.component';
 
 
 
@@ -33,7 +34,8 @@ import { FormArayComponent } from './form-aray/form-aray.component';
     FormControlComponent,
     FormGrupComponent,
     FormBuilderComponent,
-    FormArayComponent
+    FormArayComponent,
+    ReactiveFromValidationComponent
   ],
   imports: [
     BrowserModule,
